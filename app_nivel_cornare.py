@@ -179,3 +179,4 @@ if consultar:
             st.download_button("⬇️ Descargar CSV", csv, file_name=f"nivel_estacion_{codigo_estacion}.csv", mime="text/csv")
 else:
     st.info("Ajusta los parámetros en el sidebar y presiona **Consultar**.")
+
